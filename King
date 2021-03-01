@@ -73,6 +73,6 @@ void King :: count_move_ability_cells(vector<BaseFigure*> figures) {
         cell[0] = y_cell;
         cell[1] = x_cell - 1;
         move_ability_cells.push_back(cell);
-    }
+    } 
 }
 
